@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Cairo:200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:300,regular,500,600,700);
+* {
+  box-sizing: border-box;
+  font-family: "Comfortaa", sans-serif;
+}
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  background: -webkit-linear-gradient(
+    to right,
+    #f2fcfe,
+    #1c92d2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f2fcfe,
+    #1c92d2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+nav {
+  width: 100%;
+  /* border: 1px black solid; */
+  padding: 5px 15px;
+  background-color: white;
+}
+#weather-container {
+  display: flex;
+  width: 50%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+#weather-icon {
+  display: flex;
+}
+img {
+  width: 150px;
+}
+h1 {
+  font-size: 1.85rem;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+h2 {
+  margin-top: 0;
+  font-size: 1.85rem;
+}
+#weather-details {
+}
+input {
+  all: unset;
+  padding: 8px;
+  border-bottom: 3px blueviolet solid;
+  /* border-left: 1px blueviolet;
+border-top: 1px blueviolet ;
+border-right:1 ; */
+  font-size: 1.05em;
+  font-weight: bold;
+  margin-right: 10px;
+}
+button {
+  all: unset;
+  border: 3px blueviolet solid;
+  background-color: blueviolet;
+  padding: 8px;
+  color: white;
+}

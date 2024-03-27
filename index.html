@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/weather.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <title>UMBRELLA</title>
+  </head>
+  <body>
+    <nav>
+      <h1>UMBRELLA</h1>
+    </nav>
+    <div id="weather-container">
+      <div id="weather-icon">
+        <img src=" https://openweathermap.org/img/wn/03d@2x.png" alt="" />
+      </div>
+      <div id="weather-details">
+        <h1 id="city">--</h1>
+        <h2>--°C</h2>
+        <h3 class="description">---</h3>
+      </div>
+    </div>
+    <form>
+      <input
+        type="text"
+        name="city"
+        id="city-data"
+        placeholder=" Search city name"
+      />
+      <button type="submit">Search</button>
+    </form>
+    <script src="./weather.js"></script>
+  </body>
+</html>
